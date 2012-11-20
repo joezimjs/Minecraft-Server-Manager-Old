@@ -1,0 +1,130 @@
+@import url('font.css');
+
+body { 
+	background: url('http://subtlepatterns.com/patterns/use_your_illusion.png');
+	color: #ddd;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	text-align: center;
+	padding-top: 30px;
+}
+
+input {
+	font-family: 'Open Sans';
+}
+
+h1, h2, h3, h4 {
+	text-shadow: -1px -1px 1px #000;
+	margin:0;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 36px;
+	font-weight: 900;
+}
+
+#content h1, #content h2, #content h3, #content h4 {
+	text-shadow: 0 1px 1px #fff;	
+	font-weight: 900;
+}
+
+#content h1 {
+	font-size: 28px;
+}
+
+#content h2 {
+	font-size: 24px;
+}
+
+#content {
+	background: #999;
+	color: #333;
+	width: 550px;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 20px;
+	border:10px solid #bbb;
+}
+
+#content .content-header {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+#content .content-header p {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #666;
+	margin:0;
+	text-align: center;
+}
+
+#content p, ul {
+	text-align: left;
+	font-size: 16px;
+}
+
+.button {
+	background: url(../images/arrow.png) 95% 50% no-repeat #ccc;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	color: #666;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: bold;
+	padding:10px 10% 10px 10px;
+	text-align: center;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.button.server {
+	background-color: #484;
+	border-color: #363;
+	color: #ccc;
+	width:30%;
+	margin:0 3.5% 9% 3.5%;
+}
+
+.stop {
+	background-color: #844;
+	border-color: #633;
+	color:white;
+	float:right;
+}
+
+.console {
+	margin-bottom: 20px;+
+}
+
+.console ul {
+	height: 15em;
+	overflow: scroll;
+	background: #333;
+	color: #ccc;
+	padding: 5px;
+	border: 1px solid #000;
+	margin:0;
+}
+
+.console ul li {
+	height:1.2em;
+	white-space: no-wrap;
+	width: 500%;
+	list-style-type: none;
+}
+
+.command-line {
+    background: #333;
+    border: 1px solid #000;
+    color: #CCC;
+    font-size: 18px;
+    padding: 10px;
+    vertical-align: middle;
+    width: 77%;
+}
+
+.console p, .command p {
+	margin:0;
+}
