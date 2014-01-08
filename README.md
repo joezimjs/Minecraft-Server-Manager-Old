@@ -1,7 +1,11 @@
-Minecraft-Server-Manager-Old
+Minecraft Server Manager (Old)
 ============================
 
-The old version of a project for starting and sending commands to Minecraft Servers via a web interface.
+The old version of a project for starting and sending commands to Minecraft Servers via a web interface. Here's a demonstration:
+
+[![Minecraft Server Manager Demo](http://img.youtube.com/vi/dTIv_f-Ll2g/0.jpg)](http://www.youtube.com/watch?v=dTIv_f-Ll2g)
+
+This project is no longer maintained as I am working on an entirely new and different version. When it is ready, I will add a link to it here.
 
 ##Getting Started
 1) git clone the repo to a directory accessible by a normal web server (apache, IIS, etc)
