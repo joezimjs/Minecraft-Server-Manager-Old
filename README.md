@@ -14,13 +14,13 @@ This project is no longer maintained as I am working on an entirely new and diff
 
 3) npm install
 
-4) Open /app/app.js and edit the CWD (line 37) to point to the folder containing all the folders of your Minecraft Servers
+4) Open `/app/app.js` and edit the CWD (line 37) to point to the folder containing all the folders of your Minecraft Servers
 
-5) Open /app/servers.js to configure the servers for the app. Read the comment at the top for more information.
+5) Open `/app/servers.js` to configure the servers for the app. Read the comment at the top for more information.
 
-You should be able to run the app now. You may start the app server by going to /app in your console and running 
-`node app`. This isn't technically necessary because if you go the index.html from a normal server and the app isn't
-started, there should be a button on the page that will run a PHP script (/app/start_node.php) that will start the
+You should be able to run the app now. You may start the app server by going to `/app` in your console and running 
+`node app`. This isn't technically necessary because if you go the `index.html` from a normal server and the app isn't
+started, there should be a button on the page that will run a PHP script (`/app/start_node.php`) that will start the
 Node server for you. If you do this, and it doesn't seem to do anything, refresh the page a couple times to be sure.
 If it still doesn't work, start the Node server manually.
 
